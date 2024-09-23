@@ -1,1 +1,103 @@
 /*ini css*/
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    background-image: url(https://picsum.photos/id/237/200/300);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.banner {
+    height: 578px;
+    width: 1366px;
+    border: 1px solid;
+    background-image: url(https://picsum.photos/1366/578);
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 45%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.info {
+    width: 45%;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
