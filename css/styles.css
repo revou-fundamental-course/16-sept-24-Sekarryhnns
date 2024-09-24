@@ -101,3 +101,44 @@ footer {
     font-size: 14px;
     color: #777;
 }
+
+/* CSS untuk hamburger menu */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 25px;
+}
+
+.hamburger span {
+    background-color: black;
+    height: 3px;
+    width: 100%;
+    display: block;
+}
+
+/* Media query untuk layar kecil */
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .nav-bar a {
+        display: none; /* Sembunyikan link navbar */
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .nav-bar.active a {
+        display: block; /* Tampilkan link saat hamburger diklik */
+    }
+
+    .hamburger {
+        display: flex; /* Tampilkan hamburger menu */
+    }
+}
